@@ -1,5 +1,5 @@
 CC ?= gcc
-CFLAGS = -Wall -Wextra -Werror -pedantic -ansi
+CFLAGS = -Wall -Wextra -Werror -pedantic -ansi -Ofast
 
 run: colorpicker
 	./$<
